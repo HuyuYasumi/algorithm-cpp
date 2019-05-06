@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * 最长子序列
+ * @param nums 待求解的问题
+ * @return @param sub 子问题的最长子序列，第一列存储了最长子序列的长度
+ * @param n 问题规模
+ */
 void solutionA(int nums[], int* sub[], int n) {
     sub[0] = new int[n + 1];
     sub[0][0] = 1;
